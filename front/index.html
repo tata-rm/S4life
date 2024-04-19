@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S4Life</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ingrid+Darling&family=Irish+Grover&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">    
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img src="imagens/s4life.png" class="imagemEMP">
+        </a>
+        <div>
+            <a href=''><button id="button-header">Sobre</button></a>
+
+            <div class="dropdown">
+                <button class="dropbtn" id="button-header">Serviços</button>
+                <div class="dropdown-content">
+                    <a href="">Moradia compartilhada</a>
+                    <a href="">Kitnet</a>
+                    <a href="">Casas</a>
+                    <a href="">Apartamento</a>
+                </div>
+            </div>
+        </div>     
+    </header>
+
+    <main class="container flex">
+        <img id="img1" src="imagens/introducao.png" alt="">
+
+        <div class="duvidas">
+            <p class="texto-duvidas">Não deixe de nos chamar!</p>
+            <input class="input-duvidas" type="text" placeholder="Digite seu nome:" id="nome">
+            <input class="input-duvidas" type="email" placeholder="Digite seu email:" id="email">
+            <input class="input-duvidas" type="text" placeholder="Nos diga a sua dúvida:" id="mensagem">
+            <button class="button-duvidas" id="handleSubmit">Enviar</button>
+        </div>  
+    </main>
+
+    <section class="primeira_section">
+        <h4>
+            Realizamos reformas e preparamos moradias para recepção de pessoas universitárias em um ambiente otimizado! Confira alguns serviços disponíveis:
+        </h4>
+    </section>
+
+    <section class="segunda_section">
+        <div class="card-esquerda">         
+            <div class="comp-cards">
+                <div class="card">
+                    <img src="imagens/quarto.png" class="card-imagem">
+                    <div>
+                        <h1>Quarto</h1>
+                        <p class="p-cards">Desfrute de um espaço confortável com tons de cores suaves e acolhedor.</p>
+                        <button class="card-button">mensagem</button>
+                    </div>
+                </div>
+            
+                <div class="card">
+                    <img src="imagens/sala.jpg" class="card-imagem">
+                    <div>
+                        <h1>Sala Central</h1>
+                        <p class="p-cards">Uma sala com uma atmosfera calorosa e convidativa,
+                        criando um ambiente relaxante.</p>
+                        <button class="card-button">mensagem</button>
+                    </div>
+                </div>
+            
+                <div class="card">
+                    <img src="imagens/cozinha.jpg" class="card-imagem">
+                    <div>
+                        <h1>Cozinha</h1>
+                        <p class="p-cards">Uma cozinha charmosa e organizada onde tem aromas deliciosos da culinária.</p>
+                        <button class="card-button">mensagem</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card-direita">
+            <img src="imagens/pesquisando.png" class="imagemPesquisando">
+        </div>
+    </section>
+
+    <section class="terceira_section">
+        <p class="frases-finais">Junte-se a S4Life e tenha um cantinho só seu para chamar de lar!</p>
+
+        <img id="img1" src="imagens/imobiliaria1.png" alt="">
+        
+    </section>
+
+    <section class="quarta_section">
+        <p class="frases-finais">Segurança e conforto, a escolha está em suas mãos. Priorizamos seu bem estar e satisfação!</p>
+        <img id="img1" src="imagens/imobiliaria2.png" alt="">
+    </section>
+
+    <footer class="footer">
+        <div class="texto-footer">
+            <p> Estamos em todas as redes!</p>
+        </div>
+        <div class="rs">
+            <div class="redes-sociais">
+                <p>Acesse mais dados pelo Facebook!</p>
+                <a href="https://www.facebook.com/?locale=pt_BR">
+                    <img src="imagens/facebook.png" class="redes-sociais_IMG">
+                </a>
+            </div>
+
+            <div class="redes-sociais">
+                <p>Acompanhe-nos pelo nosso Intagram!  </p>
+                <a href="https://www.instagram.com/">
+                    <img src="imagens/instagram.png" class="redes-sociais_IMG">
+                </a>
+            </div>
+
+            <div class="redes-sociais">
+                <p class="texto-redes">Acesse dados e siga nosso twitter!</p>
+                <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoicHQifQ%3D%3D%22%7D">
+                    <img src="imagens/twitter.avif" class="redes-sociais_IMG">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
